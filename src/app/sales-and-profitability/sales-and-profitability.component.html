@@ -1,0 +1,162 @@
+<h3 class="ui header">Sales And Profitability</h3>
+
+<div class="ui grid">
+  <div class="sixteen column row">
+    <div class="eight wide column">
+      <div class="ui teal secondary segment">
+        <div class="ui form mini">
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 30%">Price / Perch</label>
+              <input placeholder="Price / Perch" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 30%">Extents (Perches)</label>
+              <input placeholder="Extents (Perches)" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 20%"></label>
+              <div class="right floated column">
+                <button class="mini ui blue button">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <table class="ui grey very compact table">
+        <thead>
+        <tr>
+          <th>No of Purchase</th>
+          <th>Price Per Perch</th>
+          <th>Sub Total</th>
+          <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="cursor: pointer">
+          <td>John</td>
+          <td>Approved</td>
+          <td>None</td>
+          <td>
+            <button class="mini ui button red">Remove</button>
+          </td>
+        </tr>
+        <tr style="cursor: pointer">
+          <td>Jamie</td>
+          <td>Approved</td>
+          <td>Approved</td>
+          <td>
+            <button class="mini ui button red">Remove</button>
+          </td>
+        </tr>
+        <tr style="cursor: pointer">
+          <td>John</td>
+          <td>Approved</td>
+          <td>Approved</td>
+          <td>
+            <button class="mini ui button red">Remove</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="eight wide column">
+      <div class="ui teal secondary segment">
+        <div class="ui form mini">
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Cash Flow Period (Months)</label>
+              <input placeholder="Cash Flow Period" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Total Sales</label>
+              <input placeholder="Total Sales" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Tax & Levies (%)</label>
+              <input placeholder="Tax & Levies (%)" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Net Proceeds</label>
+              <input placeholder="Net Proceeds" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Total Cost</label>
+              <input placeholder="Total Cost" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Gross Profit</label>
+              <input placeholder="Gross Profit" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Incentives</label>
+              <input placeholder="Incentives" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Net Profit</label>
+              <input placeholder="Net Profit" type="text">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Net Profit</label>
+              <input placeholder="Net Profit" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">ROI</label>
+              <input placeholder="ROI" type="text" disabled="disabled">
+            </div>
+          </div>
+
+          <div class="inline fields">
+            <div class="sixteen wide field">
+              <label style="width: 50%">Profit Ratio</label>
+              <input placeholder="Profit Ratio" type="text" disabled="disabled">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="three ui buttons">
+        <button class="ui button grey" (click)="brnBack();">Previous</button>
+        <button class="ui button teal" (click)="previewDetails();">Generate Report</button>
+        <button class="ui button blue">Print Report</button>
+      </div>
+    </div>
+  </div>
+</div>
+
