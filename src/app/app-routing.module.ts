@@ -11,6 +11,7 @@ import {AdvertisingCostComponent} from './advertising-cost/advertising-cost.comp
 import {ResaleCostComponent} from './resale-cost/resale-cost.component';
 import {SalesAndProfitabilityComponent} from './sales-and-profitability/sales-and-profitability.component';
 import {PreviewLandDetailsComponent} from './preview-land-details/preview-land-details.component';
+import {CreateLandSaleComponent} from './create-land-sale/create-land-sale.component';
 
 const routes: Routes = [
   {
@@ -56,6 +57,10 @@ const routes: Routes = [
   {
     path: 'preview-before-approval',
     component: PreviewLandDetailsComponent
+  },
+  {
+    path: 'create-land-sale-profile',
+    component: CreateLandSaleComponent
   }
 ];
 

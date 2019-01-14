@@ -31,7 +31,8 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "semantic-ui/dist/semantic.min.js"
+              "semantic-ui/dist/semantic.min.js",
+              "node_modules/jquery/dist/jquery.js"
             ]
           },
           "configurations": {

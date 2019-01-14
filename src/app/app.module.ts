@@ -16,6 +16,8 @@ import { AdvertisingCostComponent } from './advertising-cost/advertising-cost.co
 import { ResaleCostComponent } from './resale-cost/resale-cost.component';
 import { SalesAndProfitabilityComponent } from './sales-and-profitability/sales-and-profitability.component';
 import { PreviewLandDetailsComponent } from './preview-land-details/preview-land-details.component';
+import { CreateLandSaleComponent } from './create-land-sale/create-land-sale.component';
+import * as $ from 'jquery';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { PreviewLandDetailsComponent } from './preview-land-details/preview-land
     AdvertisingCostComponent,
     ResaleCostComponent,
     SalesAndProfitabilityComponent,
-    PreviewLandDetailsComponent
+    PreviewLandDetailsComponent,
+    CreateLandSaleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,14 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 
+
+
 @Component({
   selector: 'app-purchasing-costs',
   templateUrl: './purchasing-costs.component.html',
   styleUrls: ['./purchasing-costs.component.scss']
 })
+
 export class PurchasingCostsComponent implements OnInit {
 
   constructor(private router: Router) {
@@ -19,7 +22,9 @@ export class PurchasingCostsComponent implements OnInit {
   };
 
   btnClickNext = function () {
-    this.router.navigateByUrl('development-costs');
+
+    // $('.ui.basic.modal').modal('show');
+    // this.router.navigateByUrl('development-costs');
   };
 
 }
