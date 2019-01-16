@@ -15,10 +15,10 @@ export class AdvertisingCostComponent implements OnInit {
   }
 
   btnBack = function () {
-    this.router.navigateByUrl('development-costs');
+    this.router.navigateByUrl('main/development-costs');
   };
 
   btnClickNext = function () {
-    this.router.navigateByUrl('resale-costs');
+    this.router.navigateByUrl('main/resale-costs');
   };
 }

@@ -15,10 +15,10 @@ export class ResaleCostComponent implements OnInit {
   }
 
   btnBack = function () {
-    this.router.navigateByUrl('advertising-costs');
+    this.router.navigateByUrl('main/advertising-costs');
   };
 
   btnClickNext = function () {
-this.router.navigateByUrl('sales-and-profitability');
+this.router.navigateByUrl('main/sales-and-profitability');
   };
 }

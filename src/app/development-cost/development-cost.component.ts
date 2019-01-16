@@ -15,11 +15,11 @@ export class DevelopmentCostComponent implements OnInit {
   }
 
   btnBack = function () {
-    this.router.navigateByUrl('purchasing-costs');
+    this.router.navigateByUrl('main/purchasing-costs');
   };
 
   btnClickNext = function () {
-    this.router.navigateByUrl('advertising-costs');
+    this.router.navigateByUrl('main/advertising-costs');
   };
 
 }

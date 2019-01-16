@@ -15,10 +15,10 @@ export class SalesAndProfitabilityComponent implements OnInit {
   }
 
   brnBack = function () {
-    this.router.navigateByUrl('resale-costs');
+    this.router.navigateByUrl('main/resale-costs');
   };
 
   previewDetails = function () {
-    this.router.navigateByUrl('preview-before-approval');
+    this.router.navigateByUrl('main/preview-before-approval');
   };
 }

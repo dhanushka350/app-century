@@ -15,6 +15,6 @@ export class CreateProjectsComponent implements OnInit {
   }
 
   btnClickNext = function () {
-    this.router.navigateByUrl('/purchasing-costs');
+    this.router.navigateByUrl('/main/purchasing-costs');
   };
 }

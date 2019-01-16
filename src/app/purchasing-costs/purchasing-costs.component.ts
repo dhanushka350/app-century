@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 
+
 declare var $: any;
 
 @Component({
@@ -10,6 +11,7 @@ declare var $: any;
 })
 
 export class PurchasingCostsComponent implements OnInit {
+  closeResult: string;
 
   constructor(private router: Router) {
   }
@@ -18,14 +20,11 @@ export class PurchasingCostsComponent implements OnInit {
   }
 
   btnBack = function () {
-    this.router.navigateByUrl('create-new');
+    this.router.navigateByUrl('main/create-new');
   };
 
   btnClickNext = function () {
-    $('.ui.basic.modal')
-      .modal('show')
-    ;
-    /* this.router.navigateByUrl('development-costs');*/
+    this.router.navigateByUrl('main/development-costs');
   };
 
 }
