@@ -17,7 +17,10 @@ import { ResaleCostComponent } from './resale-cost/resale-cost.component';
 import { SalesAndProfitabilityComponent } from './sales-and-profitability/sales-and-profitability.component';
 import { PreviewLandDetailsComponent } from './preview-land-details/preview-land-details.component';
 import { CreateLandSaleComponent } from './create-land-sale/create-land-sale.component';
+import { SuiModule } from 'ng2-semantic-ui';
 import * as $ from 'jquery';
+import * as semantic from 'ng2-semantic-ui';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -36,11 +39,13 @@ import * as $ from 'jquery';
     ResaleCostComponent,
     SalesAndProfitabilityComponent,
     PreviewLandDetailsComponent,
-    CreateLandSaleComponent
+    CreateLandSaleComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SuiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
