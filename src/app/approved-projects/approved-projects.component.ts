@@ -15,6 +15,6 @@ export class ApprovedProjectsComponent implements OnInit {
   }
 
   btnClickNext = function () {
-    this.router.navigateByUrl('create-land-sale-profile');
+    this.router.navigateByUrl('main/create-land-sale-profile');
   };
 }

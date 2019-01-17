@@ -10,11 +10,7 @@ export class LandingComponent implements OnInit {
 
   constructor(private router: Router) {
   }
-
-  sales = function () {
-    this.router.navigateByUrl('');
-  };
-
+  
   evaluation = function () {
     this.router.navigateByUrl('main/dashboard');
   };

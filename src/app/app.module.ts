@@ -20,10 +20,10 @@ import {CreateLandSaleComponent} from './create-land-sale/create-land-sale.compo
 import {SuiModule} from 'ng2-semantic-ui';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {DashboardComponent} from './dashboard/dashboard.component';
-import { LoginComponent } from './login/login.component';
-import { MainComponent } from './main/main.component';
-import { LandingComponent } from './landing/landing.component';
-
+import {LoginComponent} from './login/login.component';
+import {MainComponent} from './main/main.component';
+import {LandingComponent} from './landing/landing.component';
+import {SweetAlert2Module} from '@toverux/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
@@ -51,7 +51,13 @@ import { LandingComponent } from './landing/landing.component';
     BrowserModule,
     AppRoutingModule,
     SuiModule,
-    NgbModule
+    NgbModule,
+    SweetAlert2Module.forRoot({
+      buttonsStyling: false,
+      customClass: 'modal-content',
+      confirmButtonClass: 'ui teal button',
+      cancelButtonClass: 'ui red button'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
