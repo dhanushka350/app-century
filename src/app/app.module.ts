@@ -24,6 +24,25 @@ import {LoginComponent} from './login/login.component';
 import {MainComponent} from './main/main.component';
 import {LandingComponent} from './landing/landing.component';
 import {SweetAlert2Module} from '@toverux/ngx-sweetalert2';
+import { CreateCustomerComponent } from './sales/create-customer/create-customer.component';
+import { SalesSideBarComponent } from './sales/sales-side-bar/sales-side-bar.component';
+import { SalesMainComponent } from './sales/sales-main/sales-main.component';
+import { SalesDashboardComponent } from './sales/sales-dashboard/sales-dashboard.component';
+import { ListCustomersComponent } from './sales/list-customers/list-customers.component';
+import { ProjectCodesComponent } from './sales/project-codes/project-codes.component';
+import { PreviousAgreementsComponent } from './sales/previous-agreements/previous-agreements.component';
+import { ApprovalRequestComponent } from './sales/approval-request/approval-request.component';
+import { ProjectLotsComponent } from './sales/project-lots/project-lots.component';
+import { AdvancePaymentsComponent } from './sales/advance-payments/advance-payments.component';
+import { BankLoanComponent } from './sales/bank-loan/bank-loan.component';
+import { CreateDirectCustomerComponent } from './sales/create-direct-customer/create-direct-customer.component';
+import { EarlySettlementsScheduleComponent } from './sales/early-settlements-schedule/early-settlements-schedule.component';
+import { EarlySettlementComponent } from './sales/early-settlement/early-settlement.component';
+import { OutrightComponent } from './sales/outright/outright.component';
+import { ScheduleComponent } from './sales/schedule/schedule.component';
+import {AfterAdvanceComponent} from './sales/after-advance/after-advance.component';
+import { ManagerApprovalComponent } from './sales/manager-approval/manager-approval.component';
+
 
 @NgModule({
   declarations: [
@@ -46,6 +65,24 @@ import {SweetAlert2Module} from '@toverux/ngx-sweetalert2';
     LoginComponent,
     MainComponent,
     LandingComponent,
+    CreateCustomerComponent,
+    SalesSideBarComponent,
+    SalesMainComponent,
+    SalesDashboardComponent,
+    ListCustomersComponent,
+    ProjectCodesComponent,
+    PreviousAgreementsComponent,
+    ApprovalRequestComponent,
+    ProjectLotsComponent,
+    AdvancePaymentsComponent,
+    BankLoanComponent,
+    CreateDirectCustomerComponent,
+    EarlySettlementsScheduleComponent,
+    EarlySettlementComponent,
+    OutrightComponent,
+    ScheduleComponent,
+    AfterAdvanceComponent,
+    ManagerApprovalComponent,
   ],
   imports: [
     BrowserModule,

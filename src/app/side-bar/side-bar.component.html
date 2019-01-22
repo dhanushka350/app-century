@@ -4,7 +4,7 @@
       <div class="smail ui icon input">
         <a class="item" style="font-weight: bold; font-size: medium; color: white">
           <i class="university icon"></i>
-          Century Finance (Pvt) Ltd.
+          Century Finance (Pvt) Ltd.[EVALUATION]
         </a>
       </div>
     </div>
@@ -29,9 +29,15 @@
 
 <div class="ui bottom attached segment  pushable">
   <div class="ui visible left vertical sidebar menu" style="background-color: #0e8c8c;">
-    <a class="item" routerLink="dashboard" style="color: white;font-weight: bold; margin-top: 20%">
+    <a class="item" routerLink="/landing" style="color: white;font-weight: bold; margin-top: 20%">
       <i class="home icon"></i>
       Home
+    </a>
+    <div class="ui fitted divider"></div>
+
+    <a class="item" routerLink="dashboard" style="color: white;font-weight: bold;">
+      <i class="desktop icon"></i>
+      Dashboard
     </a>
     <div class="ui fitted divider"></div>
 
@@ -64,12 +70,7 @@
       Locations
     </a>
     <div class="ui fitted divider"></div>
-
-    <a class="item" style="color: white;font-weight: bold;" [swal]="['Oops!', 'This is not implemented yet :/', 'warning']">
-      <i class="chart bar outline icon"></i>
-      Sales
-    </a>
-    <div class="ui fitted divider"></div>
+    
   </div>
   <div class="pusher" style="margin-right: 20%; height: 50px; overflow-y: scroll; margin-left: 3%;">
     <div class="ui basic segment" style="margin-top: 5.5%;">

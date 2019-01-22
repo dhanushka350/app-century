@@ -12,9 +12,7 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    $('.ui.basic.modal')
-      .modal('show')
-    ;
+
   }
 
 }
