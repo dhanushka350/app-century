@@ -1,0 +1,227 @@
+<h3 class="ui header">Advance Payments</h3>
+
+<div class="ui grid">
+  <div class="sixteen column row">
+    <div class="eight wide column">
+      <div class="ui teal secondary segment">
+        <form class="ui form mini">
+          <div class="inline field">
+            <label style="width: 28%">Land Name</label>
+            <input name="Land Name" placeholder="Land Name" type="text" style="width: 70%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Lot No</label>
+            <input name="Lot No" placeholder="Lot No" type="text" style="width: 70%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Agreed Sale Price </label>
+            <input name="Agreed Sale Price " placeholder="Agreed Sale Price" type="text" style="width: 70%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Agreement Cover Price </label>
+            <input name="Agreement Cover Price " placeholder="Agreement Cover Price " type="text" style="width: 70%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Contract No</label>
+            <input name="Contract No" placeholder="Contract No" type="text" style="width: 70%;">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="eight wide column">
+      <div class="ui segment secondary teal">
+        <form class="ui form mini">
+          <div class="inline field">
+            <label style="width: 28%">Customer Name </label>
+            <input name="Customer Name " placeholder="Customer Name " type="text" style="width: 70%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Customer NIC </label>
+            <input name="Customer NIC " placeholder="Customer NIC " type="text" style="width: 70%">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Advance Completed </label>
+            <input name="Advance Completed " placeholder="Advance Completed " type="text" style="width: 70%">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Advance Balance to Pay </label>
+            <input name="Advance Balance to Pay " placeholder="Advance Balance to Pay " type="text" style="width: 70%">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Advance Agreed Percentage </label>
+            <input name="Advance Agreed Percentage " placeholder="Advance Agreed Percentage " type="number"
+                   style="width: 70%">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui grid">
+  <div class="sixteen column row">
+    <div class="ten wide column">
+      <div class="ui grid">
+        <div class="sixteen column row">
+          <h4>Advance Payment - </h4>
+          <div class="left floated column">
+
+          </div>
+          <div class="right floated column">
+            <div class="ui right floated pagination menu mini">
+              <a class="icon item">
+                <i class="left chevron icon"></i>
+              </a>
+              <a class="item">1</a>
+              <a class="item">2</a>
+              <a class="item">3</a>
+              <a class="item">4</a>
+              <a class="icon item">
+                <i class="right chevron icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <table class="ui grey very compact table">
+        <thead>
+        <tr class="mini">
+          <th>Payment. #</th>
+          <th>Date</th>
+          <th>Amount (Rs.)</th>
+          <th>Cash/Cheque</th>
+          <th>Cheque No.</th>
+          <th>Completed</th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="cursor: pointer">
+          <td>001</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>*</td>
+          <td>*</td>
+          <td>*</td>
+        </tr>
+        <tr style="cursor: pointer">
+          <td>001</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>*</td>
+          <td>*</td>
+          <td>*</td>
+        </tr>
+        <tr style="cursor: pointer">
+          <td>001</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>text</td>
+          <td>*</td>
+          <td>*</td>
+          <td>*</td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div class="six wide column">
+      <div class="ui segment secondary teal">
+        <form class="ui form mini">
+          <div class="inline field">
+            <label style="width: 28%">Payment Amount </label>
+            <input name="Payment Amount" placeholder="Payment Amount" type="text" style="width: 69%;">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Cheque No </label>
+            <input name="Cheque No" placeholder="Cheque No" type="text" style="width: 69%">
+          </div>
+          <div class="inline field">
+            <label style="width: 28%">Payment Date</label>
+            <input name="Payment Date" placeholder="Payment Date" type="date" style="width: 69%">
+          </div>
+          <div class="two ui buttons">
+            <button class="ui inverted orange button">Generate Reminder Letter</button>
+            <button class="ui inverted green button">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui grid">
+  <div class="sixteen column row">
+    <div class="sixteen wide column">
+      <div class="ui teal secondary segment">
+        <div class="ui form mini">
+          <div class="fields">
+            <div class="field mini" style="width: 33%">
+              <label>Payment Term </label>
+              <select class="ui dropdown mini" style="height: 58%">
+                <option value="Easy_Payment">Easy Payment</option>
+                <option value="6_Months_Interest_Free">6 Months Interest Free</option>
+              </select>
+            </div>
+
+            <div class="field" style="width: 33%">
+              <label>Total Advance Payment* </label>
+              <input placeholder="Total Advance Payment* " type="text">
+            </div>
+
+            <div class="field" style="width: 33%">
+              <label>Balance Payment*</label>
+              <input placeholder="Balance Payment*" type="text">
+            </div>
+          </div>
+
+          <div class="fields">
+            <div class="field mini" style="width: 33%">
+              <label>Installment Date* </label>
+              <input placeholder="Installment Date*" type="text">
+            </div>
+
+            <div class="field" style="width: 33%">
+              <label>Agreed Value</label>
+              <input placeholder="Agreed Value " type="text">
+            </div>
+
+            <div class="field" style="width: 33%">
+              <label>Monthly Installment </label>
+              <input placeholder="Monthly Installment " type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="ui block header mini orange">
+  Appoval Status :  Pending
+</h3>
+<div class="ui grid">
+  <div class="sixteen column row">
+    <div class="sixteen wide column">
+      <div class="ui segment" style="text-align: center">
+        <button class="ui vk button">Generate Installment Letter</button>
+        <button class="ui twitter button">Generate Refund Policy Letter</button>
+        <button class="ui linkedin button">Generate Fencing Letter</button>
+        <button class="ui right labeled icon teal button" style="margin-left: 5%">
+          <i class="right arrow icon"></i>
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
