@@ -32,6 +32,7 @@ import {EarlySettlementComponent} from './sales/early-settlement/early-settlemen
 import {OutrightComponent} from './sales/outright/outright.component';
 import {ScheduleComponent} from './sales/schedule/schedule.component';
 import {AfterAdvanceComponent} from './sales/after-advance/after-advance.component';
+import {ReminderLetterGeneratorComponent} from './sales/reminder-letter-generator/reminder-letter-generator.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,7 @@ const routes: Routes = [
       {path: 'outright', component: OutrightComponent},
       {path: 'schedule', component: ScheduleComponent},
       {path: 'after-advance', component: AfterAdvanceComponent},
+      {path: 'reminder-letter-generation', component: ReminderLetterGeneratorComponent},
       {path: 'project-lots', component: ProjectLotsComponent}
     ]
   },

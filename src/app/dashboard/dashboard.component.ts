@@ -15,4 +15,9 @@ export class DashboardComponent implements OnInit {
 
   }
 
+  openModal = function () {
+    $('.ui.modal')
+      .modal('show')
+    ;
+  };
 }

@@ -42,6 +42,7 @@ import { OutrightComponent } from './sales/outright/outright.component';
 import { ScheduleComponent } from './sales/schedule/schedule.component';
 import {AfterAdvanceComponent} from './sales/after-advance/after-advance.component';
 import { ManagerApprovalComponent } from './sales/manager-approval/manager-approval.component';
+import { ReminderLetterGeneratorComponent } from './sales/reminder-letter-generator/reminder-letter-generator.component';
 
 
 @NgModule({
@@ -83,6 +84,7 @@ import { ManagerApprovalComponent } from './sales/manager-approval/manager-appro
     ScheduleComponent,
     AfterAdvanceComponent,
     ManagerApprovalComponent,
+    ReminderLetterGeneratorComponent,
   ],
   imports: [
     BrowserModule,
